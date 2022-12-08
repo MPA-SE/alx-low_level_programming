@@ -2,9 +2,8 @@
 
 /**
  * main - This prints sizes of types
- * Return: Always 0 
+ * Return: Always 0
  */
-
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
