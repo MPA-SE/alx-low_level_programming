@@ -22,9 +22,9 @@ void times_table(void)
 			if (pro <= 9)
 				_putchar(' ');
 			else
-				_putchar((pro / 10) + '0');
+				_putchar(pro / 10);
 
-			_putchar((pro % 10) + '0');
+			_putchar(pro % 10);
 		}
 		_putchar('\n');
 	}
