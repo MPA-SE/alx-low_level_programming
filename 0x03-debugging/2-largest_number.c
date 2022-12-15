@@ -12,10 +12,6 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	a = 972;
-	b = -98;
-	c = 0;
-
 	largest = largest_number(a, b, c);
 
 
@@ -23,17 +19,16 @@ int largest_number(int a, int b, int c)
 	{
 		largest = a;
 
-		printf("%d is the largest number\n", largest);
 	}
 	else if (b > a && a > c)
 	{
 		largest = b;
-		printf("%d is the largest number\n", largest);
+
 	}
 	else
 	{
 		largest = c;
-		printf("%d is the largest number\n", largest);
+
 	}
 
 	return (largest);
