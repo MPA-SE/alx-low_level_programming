@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints 1 to 100, but fizz for multiples of 3
- * buzz for multiples of 5
- * and fizzbuzz multiples of 3 and 5
+ * main - prints 1 to 100, but Fizz for multiples of 3
+ * Buzz for multiples of 5
+ * and Fizzbuzz multiples of 3 and 5
  * Return: 0
  */
 
