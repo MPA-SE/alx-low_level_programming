@@ -11,7 +11,10 @@ void print_line(int n)
 
 	if (n <= 0)
 		_putchar('\n');
-	for (u = 0; u <= n; u++)
-		_putchar('\n');
+	else
+	{
+		for (u = 0; u < n; u++)
+		_putchar(95);
 	_putchar('\n');
+	}
 }
