@@ -2,25 +2,22 @@
 
 /**
  * print_diagonal - printing line
- * @n: integer
+ * @n: number of times to print
+ * Return: no return
  */
-
 void print_diagonal(int n)
 {
 	int u, i;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	for (u = 0; u < n; u++)
 	{
-		for (u = 0; u < n; u++)
+		for (i = 0; i < u; i++)
 		{
-			for (i = 0; i <= u; u++)
-				_putchar(' ');
-			_putchar(92);
-		_putchar('\n');
+			_putchar(' ');
 		}
-
-		_putchar('\n');
+		_putchar(92);
+		if (u < (n - 1))
+			_putchar('\n');
 	}
+	_putchar('\n');
 }
