@@ -17,7 +17,7 @@ char *cap_string(char *stg)
 			ind++;
 
 		if (stg[ind - 1] == ' ' ||
-				stg[ind - 1] == 't' ||
+				stg[ind - 1] == '\t' ||
 				stg[ind - 1] == '\n' ||
 				stg[ind - 1] == ',' ||
 				stg[ind - 1] == ';' ||
