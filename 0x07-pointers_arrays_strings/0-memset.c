@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * memset - fills memory with
+ * *_memset - fills memory with
  * with a constant byte
- * @s - pointer
- * @b - constant byte
- * @n - unsigned int
+ * @s: pointer
+ * @b: constant byte
+ * @n: unsigned int
  * Return: the pointer
  */
 
