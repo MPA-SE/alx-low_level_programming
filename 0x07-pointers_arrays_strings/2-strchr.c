@@ -12,11 +12,11 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int p = 0;
+	unsigned int p;
 
-	for (; *(s + p) != '\0'; p++)
+	for (p = 0; s[p] >= '\0'; p++)
 	{
-		if (*(s + p) == c)
+		if (s[p] == c)
 			return (s + p);
 	}
 
